@@ -15,18 +15,9 @@ def construct_headless_chrome_driver():
     options.add_argument("--disable-extensions")
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
-    options.add_argument("--headless")
     return webdriver.Chrome(options=options)
 
 
-def get_landing_page_url():
-    test_dir = os.getcwd()
-    index_path = os.path.join(test_dir, "..", "page", "index.html")
-    index_uri = Path(index_path).as_uri()
-    return index_uri
-
-
-# As demonstrated in the linked web page from the course assignment
 @contextmanager
 def wait_for_page_load(driver, timeout=30):
     old_page = driver.find_element_by_tag_name('html')
@@ -35,13 +26,14 @@ def wait_for_page_load(driver, timeout=30):
 
 
 def test_nonsecret_scenario():
-    landing_page = get_landing_page_url()
+    landing_page = 'https://onlinebusiness.icbc.com/qmaticwebbooking/#/'
     driver = construct_headless_chrome_driver()
+    driver.get(landing_page)
+    print(driver.title)
 
-    # You can place additional test code here to drive this one test
 
     driver.quit()
 
-
+test_nonsecret_scenario()
 # You may want to add additional tests....
 
