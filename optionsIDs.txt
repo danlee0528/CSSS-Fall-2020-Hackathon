@@ -1,0 +1,49 @@
+First options: id = step1
+radio group wrapper
+<div role="radiogroup" class="v-input--radio-group__input"><li data-v-160a72e4="" tabindex="0" class="v-expansion-panel__container service-expansion-panel"><div class="v-expansion-panel__header"><div data-v-160a72e4="" class="flex"><div data-v-160a72e4="" class="v-radio service-name theme--light accent--text"><div class="v-input--selection-controls__input"><input aria-checked="true" id="c2a883f450951e191132a1dc0ccc3606293b454c65b72b81ac304eefae19e709" role="radio" type="radio" name="v-radio-50" value="c2a883f450951e191132a1dc0ccc3606293b454c65b72b81ac304eefae19e709"><div class="v-input--selection-controls__ripple accent--text"></div><i aria-hidden="true" class="v-icon material-icons theme--light accent--text">radio_button_checked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; right: auto; position: relative;"></label></div><label data-v-160a72e4="">A: Renewal or replacement of an existing BC licence or ID, and new ID applications (10 min)</label></div><div class="v-expansion-panel__header__icon"><i aria-hidden="true" class="v-icon material-icons theme--light"></i></div></div><div class="v-expansion-panel__body" style="display: none;"></div></li><li data-v-160a72e4="" tabindex="0" class="v-expansion-panel__container service-expansion-panel"><div class="v-expansion-panel__header"><div data-v-160a72e4="" class="flex"><div data-v-160a72e4="" class="v-radio service-name theme--light"><div class="v-input--selection-controls__input"><input aria-checked="false" id="da8488da9b5df26d32ca58c6d6a7973bedd5d98ad052d62b468d3b04b080ea25" role="radio" type="radio" name="v-radio-50" value="da8488da9b5df26d32ca58c6d6a7973bedd5d98ad052d62b468d3b04b080ea25"><div class="v-input--selection-controls__ripple"></div><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; right: auto; position: relative;"></label></div><label data-v-160a72e4="">B: Single knowledge test for a new or expired learner’s licence (45 min)</label></div><div class="v-expansion-panel__header__icon"><i aria-hidden="true" class="v-icon material-icons theme--light"></i></div></div><div class="v-expansion-panel__body" style="display: none;"></div></li><li data-v-160a72e4="" tabindex="0" class="v-expansion-panel__container service-expansion-panel"><div class="v-expansion-panel__header"><div data-v-160a72e4="" class="flex"><div data-v-160a72e4="" class="v-radio service-name theme--light"><div class="v-input--selection-controls__input"><input aria-checked="false" id="895063ac05ab8f9a4791fd0e8198d3e198c78de532dc7c985f4360a3ed080599" role="radio" type="radio" name="v-radio-50" value="895063ac05ab8f9a4791fd0e8198d3e198c78de532dc7c985f4360a3ed080599"><div class="v-input--selection-controls__ripple"></div><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; right: auto; position: relative;"></label></div><label data-v-160a72e4="">C: Combination knowledge test for a new or expired learner’s licence (75 min)</label></div><div class="v-expansion-panel__header__icon"><i aria-hidden="true" class="v-icon material-icons theme--light"></i></div></div><div class="v-expansion-panel__body" style="display: none;"></div></li><li data-v-160a72e4="" tabindex="0" class="v-expansion-panel__container service-expansion-panel"><div class="v-expansion-panel__header"><div data-v-160a72e4="" class="flex"><div data-v-160a72e4="" class="v-radio service-name theme--light"><div class="v-input--selection-controls__input"><input aria-checked="false" id="9d140201d792c24c15884ac50bbb52b6297768c05aad2edf40d81ca47a6e502d" role="radio" type="radio" name="v-radio-50" value="9d140201d792c24c15884ac50bbb52b6297768c05aad2edf40d81ca47a6e502d"><div class="v-input--selection-controls__ripple"></div><i aria-hidden="true" class="v-icon material-icons theme--light">radio_button_unchecked</i></div><label aria-hidden="true" class="v-label theme--light" style="left: 0px; right: auto; position: relative;"></label></div><label data-v-160a72e4="">D: All other in-person licensing services (excludes knowledge/road tests and EDL/EIC) (10 min)</label></div><div class="v-expansion-panel__header__icon"><i aria-hidden="true" class="v-icon material-icons theme--light"></i></div></div><div class="v-expansion-panel__body" style="display: none;"></div></li></div>
+
+shadow wrapper button
+<i aria-hidden="true" class="v-icon material-icons theme--light">keyboard_arrow_down</i>
+
+options
+<input aria-checked="true" id="c2a883f450951e191132a1dc0ccc3606293b454c65b72b81ac304eefae19e709" role="radio" type="radio" name="v-radio-50" value="c2a883f450951e191132a1dc0ccc3606293b454c65b72b81ac304eefae19e709">
+<input aria-checked="false" id="da8488da9b5df26d32ca58c6d6a7973bedd5d98ad052d62b468d3b04b080ea25" role="radio" type="radio" name="v-radio-50" value="da8488da9b5df26d32ca58c6d6a7973bedd5d98ad052d62b468d3b04b080ea25">
+<input aria-checked="false" id="895063ac05ab8f9a4791fd0e8198d3e198c78de532dc7c985f4360a3ed080599" role="radio" type="radio" name="v-radio-50" value="895063ac05ab8f9a4791fd0e8198d3e198c78de532dc7c985f4360a3ed080599">
+<input aria-checked="false" id="9d140201d792c24c15884ac50bbb52b6297768c05aad2edf40d81ca47a6e502d" role="radio" type="radio" name="v-radio-50" value="9d140201d792c24c15884ac50bbb52b6297768c05aad2edf40d81ca47a6e502d">
+
+Second options: id = step2, 17 options
+<input aria-checked="false" role="radio" type="radio" name="v-radio-79" value="[object Object]" aria-labelledby="7ca7e51b73b388a05f1d86a1d69f113272388294d514d3bfb71e8a2cc11db379">
+<input aria-checked="false" role="radio" type="radio" name="v-radio-82" value="[object Object]" aria-labelledby="53851ce8b410de56e26a0f0d2eda5a3e8d8cf4e05cc1b21af70121f53ef53b5d">
+
+or name="v-radio-79" (Abbortsford) and increments by 3
+end with 79 + 16*3 = 127
+
+Thrid options date, id = step3
+1. each date has a button
+<button type="button" class="v-btn v-btn--flat v-btn--floating theme--light"><div class="v-btn__content">23</div></button>
+2. time slot
+<button type="button" value="10:50" class="timeslot v-btn v-btn--flat theme--light" id="timeButton1"><div class="v-btn__content">10:50 am</div></button>
+3. yea
+
+
+Fourth options: contact info
+1. clear booking button 
+<button data-v-776e03a6="" type="button" class="full-wide-mobile reset-btn v-btn v-btn--icon theme--light error" aria-label="Reset data."><div class="v-btn__content">
+      Clear booking
+      </div></button>
+2. Text fields
+<input id="LastName" aria-required="true" type="text">
+<input id="FirstName" aria-required="true" type="text">
+<input aria-label="Date of Birth, format:  YYYYMMDD" id="DOB" type="text">
+<input id="Email" aria-required="true" type="text">
+<input id="ConfirmEmail" aria-required="true" type="text">
+
+phone number
+<input aria-label="Country Code" id="countryCode" aria-required="true" type="tel">
+<input aria-label="Mobile number" id="Phone" aria-required="true" type="tel">
+
+consent
+<input aria-checked="false" role="checkbox" type="checkbox" aria-labelledby="agreement" required="required" value="">
+
+button
+<button data-v-776e03a6="" disabled="disabled" type="button" class="submit v-btn v-btn--disabled v-btn--flat theme--light" id="contactStepCreateAppointmentButton"><div class="v-btn__content"><div data-v-776e03a6="">Book your appointment</div></div></button>
