@@ -23,7 +23,8 @@ Thrid options date, id = step3
 <button type="button" class="v-btn v-btn--flat v-btn--floating theme--light"><div class="v-btn__content">23</div></button>
 2. time slot
 <button type="button" value="10:50" class="timeslot v-btn v-btn--flat theme--light" id="timeButton1"><div class="v-btn__content">10:50 am</div></button>
-3. yea
+3. year selected
+
 
 
 Fourth options: contact info
