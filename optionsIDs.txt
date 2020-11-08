@@ -19,7 +19,6 @@ Second options: id = step2, 17 options
 1. expand button
 <i aria-hidden="true" class="v-icon material-icons theme--light">keyboard_arrow_down</i>
 
-
 <input aria-checked="false" role="radio" type="radio" name="v-radio-79" value="[object Object]" aria-labelledby="7ca7e51b73b388a05f1d86a1d69f113272388294d514d3bfb71e8a2cc11db379">
 <input aria-checked="false" role="radio" type="radio" name="v-radio-82" value="[object Object]" aria-labelledby="53851ce8b410de56e26a0f0d2eda5a3e8d8cf4e05cc1b21af70121f53ef53b5d">
 
@@ -33,7 +32,13 @@ Thrid options date, id = step3
 <button type="button" class="v-btn v-btn--flat v-btn--floating theme--light"><div class="v-btn__content">23</div></button>
 2. time slot
 <button type="button" value="10:50" class="timeslot v-btn v-btn--flat theme--light" id="timeButton1"><div class="v-btn__content">10:50 am</div></button>
-3. year selected
+3. Year, Month and Date Buttons
+- these buttons have a div inside. For example, <div class="v-btn__content">2</div>
+Month and Year Div Path: //*[@id="step3"]/div[2]/div/div[2]/div[1]/div/div/div[1]/div/div/button
+Year: //*[@id="step3"]/div[2]/div/div[2]/div[1]/div/div/ul
+Month: //*[@id="step3"]/div[2]/div/div[2]/div[1]/div/div/div[2]/table/tbody/tr[3]/td[1]/button
+Date: //*[@id="step3"]/div[2]/div/div[2]/div[1]/div/div/div[2]/table/tbody/tr[1]/td[3]/button
+
 
 ===========================================================================================
 Fourth options: contact info
