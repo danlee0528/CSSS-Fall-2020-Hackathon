@@ -54,9 +54,15 @@ monthsSelectionCalendarBodySelector = '#step3 > div.v-expansion-panel__body > di
 monthSelected = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, monthsSelectionCalendarBodySelector)))
 driver.execute_script("arguments[0].click()", monthSelected)
 
-# TODO: Select a available date 
+# Select a available date - 21
+datesSelectionSelector = '#step3 > div.v-expansion-panel__body > div > div.time-selection-wrapper > div.v-picker.v-card.v-picker--date.date-picker.time-selection-step.v-picker--full-width.theme--light > div > div > div.v-date-picker-table.v-date-picker-table--date.theme--light > table > tbody > tr:nth-child(4) > td:nth-child(5) > button'
+datesList = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, datesSelectionSelector)))
+driver.execute_script("arguments[0].click()", datesList)
 
-
+# Select a time 9L30 am
+timeSelectionSelector = '#timeButton4'
+timeSelected = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, timeSelectionSelector)))
+driver.execute_script("arguments[0].click()", timeSelected)
 
 # Fourth step
 driver.implicitly_wait(5)
