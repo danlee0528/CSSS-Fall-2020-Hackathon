@@ -21,7 +21,11 @@ driver.execute_script("arguments[0].click()", step1)
 # Second Step:
 # choose the first option
 driver.implicitly_wait(3)
-step2 = driver.find_element_by_css_selector("input[type='radio'][name='v-radio-79']")
+location = ["input[type='radio'][name='v-radio-79']", "input[type='radio'][name='v-radio-82']" , "input[type='radio'][name='v-radio-85']",
+"input[type='radio'][name='v-radio-88']", "input[type='radio'][name='v-radio-97']", "input[type='radio'][name='v-radio-100']",
+"input[type='radio'][name='v-radio-106']", "input[type='radio'][name='v-radio-109']", "input[type='radio'][name='v-radio-112']",
+"input[type='radio'][name='v-radio-115']", "input[type='radio'][name='v-radio-118']","input[type='radio'][name='v-radio-121']"]
+step2 = driver.find_element_by_css_selector(location[1])
 driver.execute_script("arguments[0].click()", step2)
 
 #Fourth step
