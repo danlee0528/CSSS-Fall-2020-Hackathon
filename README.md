@@ -18,3 +18,5 @@ It is well-kwown among Vancouverites that booking a knowledge test at ICBC is re
 # Demo Video
  - <a href="https://youtu.be/g5R9PTZOnxY">Youtube</a>
  - <a href="https://docs.google.com/presentation/d/1o7ni2xH5gmztdlKGXzyOlfXKB72Z0LDXlfUz9f7cxX4/edit?usp=sharing">Power Point</a>
+
+<img src="https://github.com/danlee0528/CSSS-Fall-2020-Hackathon/blob/main/Demo.png?raw=true" style="width:100%;"/>
